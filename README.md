@@ -18,11 +18,12 @@ Type a prefix and get top suggestions instantly — just like Google or your key
 ### 1. Compile
 ```bash
 g++ -std=c++17 src/*.cpp -o autocomplete
+```
 
 ### 2. Compile
 ```bash
 ./autocomplete
-
+```
 ---
 
 ### Input Format
