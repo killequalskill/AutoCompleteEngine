@@ -27,18 +27,23 @@ g++ -std=c++17 src/*.cpp -o autocomplete
 
 ---
 
+# Demo Screenshot
+![Screenshot](demo.png)
+
+---
+
 ## Input Format
 The wordlist file should be located at data/wordlist.txt and contain lines in this format: word frequency  
 The name of the wordlist file used in the repository is "en_50k.txt"  
 
 ## Sample Input(data/wordlist.txt)
-- hello 30
-- help 25
-- hell 20
-- helium 15
-- heap 12
-- hi 20
-- hop 40
+hello 30  
+help 25  
+hell 20  
+helium 15  
+heap 12  
+hi 20  
+hop 40  
 
 ### Word frequency data used:
 hermitdave/FrequencyWords (used en_50k.txt)
