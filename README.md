@@ -28,8 +28,8 @@ g++ -std=c++17 src/*.cpp -o autocomplete
 ---
 
 ## Input Format
-The wordlist file should be located at data/wordlist.txt and contain lines in this format: word frequency,
-The name of the wordlist file used in the repository is "en_50k.txt"
+The wordlist file should be located at data/wordlist.txt and contain lines in this format: word frequency  
+The name of the wordlist file used in the repository is "en_50k.txt"  
 
 ## Sample Input(data/wordlist.txt)
 - hello 30
