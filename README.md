@@ -51,7 +51,7 @@ hermitdave/FrequencyWords (used en_50k.txt)
 ---
 
 ## Sample Output
-Enter prefix: he
+Enter prefix: he  
 Suggestions:
 1. hello (30)
 2. help (25)
