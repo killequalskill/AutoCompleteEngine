@@ -20,7 +20,7 @@ Type a prefix and get top suggestions instantly — just like Google or your key
 g++ -std=c++17 src/*.cpp -o autocomplete
 ```
 
-### 2. Compile
+### 2. Run
 ```bash
 ./autocomplete
 ```
