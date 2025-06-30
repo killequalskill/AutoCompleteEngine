@@ -2,6 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
+#include <cctype> 
 using namespace std;
 
 int main() {
@@ -20,6 +22,8 @@ int main() {
     while (true) {
         cout << "Enter prefix (or type 'exit' to exit): ";
         cin >> prefix;
+        transform(prefix.begin(), prefix.end(), prefix.begin(), ::tolower); 
+        // tolower is a unary function to apply to each element
         if (prefix == "exit") break; // type exit to exit
 
         auto suggestions = trie.getSuggestions(prefix, 5); 
