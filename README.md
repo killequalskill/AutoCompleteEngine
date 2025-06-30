@@ -63,7 +63,7 @@ Suggestions:
 
 # Future Enhancements
 
-- Add support for case-insensitive queries
+- Add support for case-insensitive queries (DONE)
 - Code should not be limited only to prefix search
 - Add ability to insert new words at runtime  
 - Store logs of user queries and suggestions  
